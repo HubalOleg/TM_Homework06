@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activity_background"
+    android:background="@drawable/activity_background">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:padding="@dimen/activity_padding">
 
     <View
@@ -16,9 +19,42 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/view_vertical_margin"
-        android:background="@drawable/btn_background_set"
+        android:background="@drawable/btn_background"
         android:text="@string/btn_text"
-        android:textColor="@color/btn_text_color"/>
+        android:textColor="@color/btn_text_color"
+        android:textSize="@dimen/btn_text_size"/>
+
+    <EditText
+        android:layout_width="@dimen/view_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:textSize="@dimen/et_text_size"
+        android:text="@string/first_et_text"
+        android:gravity="center"
+        android:background="@drawable/et_background"
+        android:focusable="true"
+        android:clickable="true"/>
+    <EditText
+        android:layout_width="@dimen/view_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:textSize="@dimen/et_text_size"
+        android:text="@string/second_et_text"
+        android:gravity="center"
+        android:background="@drawable/et_background"/>
+    <EditText
+        android:layout_width="@dimen/view_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:textSize="@dimen/et_text_size"
+        android:text="@string/third_et_text"
+        android:gravity="center"
+        android:background="@drawable/et_background"
+        android:enabled="false"/>
 </LinearLayout>
+</ScrollView>
 
 

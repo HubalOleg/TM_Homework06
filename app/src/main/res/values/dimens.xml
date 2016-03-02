@@ -5,4 +5,6 @@
     <dimen name="view_size">200dp</dimen>
     <dimen name="view_vertical_margin">16dp</dimen>
     <dimen name="activity_padding">10dp</dimen>
+    <dimen name="et_text_size">26sp</dimen>
+    <dimen name="btn_text_size">20sp</dimen>
 </resources>
