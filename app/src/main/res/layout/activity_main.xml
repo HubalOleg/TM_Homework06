@@ -54,6 +54,19 @@
         android:gravity="center"
         android:background="@drawable/et_background"
         android:enabled="false"/>
+    <TextView
+        android:layout_width="@dimen/view_size"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nine_patch_image"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:text="@string/latin_9patch"/>
+    <Button
+        android:layout_width="@dimen/view_size"
+        android:layout_height="@dimen/view_size"
+        android:background="@drawable/rotated_rectangle"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:layout_gravity="center"/>
 </LinearLayout>
 </ScrollView>
 
