@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorActivityBackground">#ffff00</color>
+    <color name="colorBtnText">#0033ff</color>
+    <color name="colorBtnTextPressed">#00ffaa</color>
 </resources>
